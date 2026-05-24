@@ -1,4 +1,4 @@
-# 🏠 Medellín Housing Price Tracker — Data Engineering Trainee Project
+# Medellín Housing Price Tracker — Data Engineering Trainee Project
 
 ## Overview
 

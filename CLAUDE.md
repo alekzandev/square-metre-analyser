@@ -74,7 +74,7 @@ Medallion folder structure in S3: `raw/` → `processed/` → `curated/`, partit
 
 ## Conventions
 
-- Use British English in all documentation, comments, and user-facing text (metre, neighbourhood, colour)
+- Use British English in all documentation, comments, and user-facing text (metre, neighbourhood, colour), EMOJIS ARE FORBIDDEN.
 - Code identifiers and technical terms remain in their original form (e.g. `color` in CSS)
 - Follow PEP 8, use type hints, format with `black`, lint with `ruff`
 - Commit messages in imperative mood, under 72 characters
