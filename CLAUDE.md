@@ -72,6 +72,33 @@ Medallion folder structure in S3: `raw/` → `processed/` → `curated/`, partit
 - **Credential management** — use environment variables or AWS Secrets Manager, never hardcode. For local dev, use `~/.aws/credentials` profiles.
 - **Networking basics** — VPCs, security groups, and why your RDS instance should not be publicly accessible.
 
+## Git Workflow (MANDATORY)
+
+The student must NEVER work directly on `main`. At the start of every coding interaction, check the current branch. If the student is on `main`, stop and instruct her to create a new branch before writing any code.
+
+- **Branch naming** follows Gitflow conventions:
+  - `feature/<short-description>` — new functionality (e.g. `feature/scraper-pagination`)
+  - `fix/<short-description>` — bug fixes
+  - `docs/<short-description>` — documentation changes
+  - `refactor/<short-description>` — code restructuring with no behaviour change
+- **All changes reach `main` via Pull Request.** The project is supervised by a human reviewer. The student must open a PR, describe what changed and why, and wait for approval before merging. Never push directly to `main`.
+- **Commits on the branch should be small and focused** — one logical change per commit, not a single giant commit at the end.
+
+## Test-Driven Development (MANDATORY)
+
+Every piece of code the student writes must follow the TDD cycle. No exceptions.
+
+1. **Red** — write a failing test first. The test defines the expected behaviour before any implementation exists.
+2. **Green** — write the minimum code necessary to make the test pass. Nothing more.
+3. **Refactor** — clean up the code while keeping all tests green. Improve structure without changing behaviour.
+
+Rules:
+- **No production code without a failing test first.** If the student writes implementation before a test, stop and redirect.
+- **Tests must be runnable and automated** — use `pytest`. No manual verification as a substitute.
+- **Explain TDD from the very first task.** Before the student writes her first function, walk her through the Red-Green-Refactor cycle with a concrete example relevant to the project.
+- **Test names describe behaviour**, not implementation: `test_rejects_listing_with_negative_area` not `test_validate`.
+- **Keep tests independent** — no test should depend on another test's state or execution order.
+
 ## Conventions
 
 - Use British English in all documentation, comments, and user-facing text (metre, neighbourhood, colour), EMOJIS ARE FORBIDDEN.
