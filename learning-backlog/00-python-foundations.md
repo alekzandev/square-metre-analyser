@@ -9,7 +9,7 @@ Prerequisites before touching the pipeline. Skip items you can already demonstra
 - [x] Type hints: basic annotations, `Optional`, `list[str]`, `dict[str, Any]` — scalar annotations (`float`, `str`) and `Optional[float]` demonstrated through iterative practice; container types explained
 - [x] Dataclasses and `@dataclass` decorator — wrote a `Listing` dataclass with correct field annotations including `Optional[float]` for nullable fields
 - [ ] Exception handling: `try/except/finally`, custom exceptions, when to catch vs propagate
-- [x] Context managers (`with` statement) — file I/O, database connections — explained resource leak problem, guaranteed cleanup guarantee articulated correctly in own words
+- [x] Context managers (`with` statement) — file I/O, database connections — explained resource leak problem; guaranteed cleanup articulated correctly in own words
 
 ## Tooling
 
