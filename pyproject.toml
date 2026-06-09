@@ -1,0 +1,26 @@
+[project]
+name = "square-metre-analyser"
+version = "0.1.0"
+description = "this project analyse the square metre of a given area and provide insights based on the data collected.  It can be used for various applications such as real estate, urban planning, and agriculture."
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars",
+    "requests",
+    "beautifulsoup4",
+    "boto3",
+    "python-dotenv"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
