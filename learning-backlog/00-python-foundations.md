@@ -20,10 +20,10 @@ Prerequisites before touching the pipeline. Skip items you can already demonstra
 
 ## Git Basics
 
-- [ ] `init`, `add`, `commit`, `status`, `diff`, `log`
-- [ ] Branching: `branch`, `checkout`, `merge`
-- [ ] `.gitignore` — what to exclude and why (venv, `.env`, `__pycache__`)
-- [ ] Writing clear commit messages (imperative mood, under 72 chars)
+- [x] `init`, `add`, `commit`, `status`, `diff`, `log` — used throughout setup
+- [x] Branching: `branch`, `checkout`, `merge` — created feature/project-structure correctly; learned branch renaming
+- [x] `.gitignore` — what to exclude and why (venv, `.env`, `__pycache__`) — created and used to stop tracking pycache files
+- [~] Writing clear commit messages (imperative mood, under 72 chars) — first message described process not outcome; corrected on second attempt
 
 ## Notes
 
