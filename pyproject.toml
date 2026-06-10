@@ -1,9 +1,9 @@
 [project]
 name = "square-metre-analyser"
 version = "0.1.0"
-description = "this project analyse the square metre of a given area and provide insights based on the data collected.  It can be used for various applications such as real estate, urban planning, and agriculture."
+description = "This project analyses price per square metre for a given area and provides insights based on the data collected. It can be used for applications such as real estate, urban planning, and agriculture."
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Cristina Ortiz",email = "robotina00110011@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
