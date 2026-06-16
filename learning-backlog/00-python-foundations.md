@@ -4,19 +4,19 @@ Prerequisites before touching the pipeline. Skip items you can already demonstra
 
 ## Core Language
 
-- [ ] Virtual environments (`poetry` and `pyproject.toml`) — create, activate, understand why
+- [x] Virtual environments (`poetry` and `pyproject.toml`) — create, activate, understand why — correctly explained isolation and version management in own words
 - [x] Project structure: `src/` layout, `__init__.py`, relative vs absolute imports — created src/{models,scraper,storage,transformation,analytical} and tests/ with __init__.py in each
 - [x] Type hints: basic annotations, `Optional`, `list[str]`, `dict[str, Any]` — scalar annotations (`float`, `str`) and `Optional[float]` demonstrated through iterative practice; container types explained
 - [x] Dataclasses and `@dataclass` decorator — wrote a `Listing` dataclass with correct field annotations including `Optional[float]` for nullable fields
-- [ ] Exception handling: `try/except/finally`, custom exceptions, when to catch vs propagate
+- [x] Exception handling: `try/except/finally`, custom exceptions, when to catch vs propagate — correctly explained specific vs broad exception catching; understands that specificity prevents silent failures
 - [x] Context managers (`with` statement) — file I/O, database connections — explained resource leak problem; guaranteed cleanup articulated correctly in own words
 
 ## Tooling
 
 - [ ] `pip` and `requirements.txt` vs `pyproject.toml`
-- [ ] Formatter: `black` — run it, understand what it does
-- [ ] Linter: `ruff` — run it, fix violations, understand common rules
-- [ ] Running tests with `pytest`: a single test, a file, the full suite
+- [x] Formatter: `black` — run it, understand what it does — ran it and correctly described it as enforcing consistent style and spacing
+- [x] Linter: `ruff` — run it, fix violations, understand common rules — ran it against src/, all checks passed
+- [x] Running tests with `pytest`: a single test, a file, the full suite — ran full file and targeted a single function with ::function_name syntax
 
 ## Git Basics
 
